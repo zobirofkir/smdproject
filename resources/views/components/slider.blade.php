@@ -2,21 +2,21 @@
     <div class="overflow-hidden h-full">
         <div class="flex transition-transform duration-500" id="slider">
             <div class="min-w-full h-screen md:h-auto relative">
-                <img src="https://t3.ftcdn.net/jpg/02/60/04/08/360_F_260040863_fYxB1SnrzgJ9AOkcT0hoe7IEFtsPiHAD.jpg" alt="Doctor Profile 1" class="w-full h-full object-cover object-center">
+                <img src="{{ asset('assets/images/slider-1.jpeg') }}" alt="Doctor Profile 1" class="w-full h-full object-cover object-center">
                 <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-4">
                     <h2 class="text-2xl font-bold">Doctor Profile 1</h2>
                     <p>Description for Doctor Profile 1</p>
                 </div>
             </div>
             <div class="min-w-full h-screen md:h-auto relative">
-                <img src="https://t3.ftcdn.net/jpg/02/95/51/80/360_F_295518052_aO5d9CqRhPnjlNDTRDjKLZHNftqfsxzI.jpg" alt="Doctor Profile 2" class="w-full h-full object-cover object-center">
+                <img src="{{ asset('assets/images/slider-2.jpeg') }}" alt="Doctor Profile 2" class="w-full h-full object-cover object-center">
                 <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-4">
                     <h2 class="text-2xl font-bold">Doctor Profile 2</h2>
                     <p>Description for Doctor Profile 2</p>
                 </div>
             </div>
             <div class="min-w-full h-screen md:h-auto relative">
-                <img src="https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg" alt="Doctor Profile 3" class="w-full h-full object-cover object-center">
+                <img src="{{ asset('assets/images/slider-3.jpeg') }}" alt="Doctor Profile 3" class="w-full h-full object-cover object-center">
                 <div class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-4">
                     <h2 class="text-2xl font-bold">Doctor Profile 3</h2>
                     <p>Description for Doctor Profile 3</p>
