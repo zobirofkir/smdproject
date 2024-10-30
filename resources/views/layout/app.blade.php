@@ -13,6 +13,7 @@
         {{ $slot }}
     </div>
     
+    @include('components.footer')
     <script src="{{asset('assets/js/dropdown.js')}}"></script>
 </body>
 </html>
