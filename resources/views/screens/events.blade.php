@@ -2,7 +2,19 @@
     <section class="container mx-auto">
         @include('components.last-events')
 
-        <div class="mt-20 mb-10 px-4 md:px-8 lg:px-0 py-10">
+        {{-- Search Events --}}
+        <div class="flex justify-center items-center mt-10">
+            <div class="w-full max-w-md">
+                <form action="" class="flex items-center border border-gray-300 rounded-full overflow-hidden shadow-sm focus-within:ring-2 focus-within:ring-blue-500">
+                    <button type="submit" class="pl-4 pr-4 text-gray-500 hover:text-blue-500 focus:outline-none">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <input type="text" name="search" placeholder="Search" class="flex-grow px-4 py-2 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-0">
+                </form>
+            </div>
+        </div>
+
+        <div class="mt-10 mb-10 px-4 md:px-8 lg:px-0">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
                 <!-- Card -->
                 @foreach ([1, 2, 3, 4, 5, 6] as $item)
