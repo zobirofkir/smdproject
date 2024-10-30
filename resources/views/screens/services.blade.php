@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div>
+    <div class="container mx-auto">
         @include('components.services')
     </div>
 </x-app-layout>
