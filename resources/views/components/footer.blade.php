@@ -1,34 +1,30 @@
 <footer class="bg-white text-black py-8">
     <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row justify-between items-center md:items-start">
-            <!-- Logo and Description -->
             <div class="mb-6 md:mb-0 text-center md:text-left">
                 <h1 class="text-2xl font-bold">{{ config('app.name') }}</h1>
-                <p class="text-gray-400 mt-2">Delivering quality services since 2023. Connect with us for more information.</p>
+                <p class="text-gray-400 mt-2">Fournir des services de qualité depuis 2023. Connectez-vous avec nous pour plus d'informations.</p>
             </div>
 
-            <!-- Quick Links -->
             <div class="mb-6 md:mb-0">
-                <h2 class="font-semibold text-lg mb-2">Quick Links</h2>
+                <h2 class="font-semibold text-lg mb-2">Liens Rapides</h2>
                 <ul class="text-gray-400">
-                    <li><a href="{{ url('/home') }}" class="hover:text-gray-200">Home</a></li>
-                    <li><a href="{{ url('/abouts') }}" class="hover:text-gray-200">About Us</a></li>
+                    <li><a href="{{ url('/home') }}" class="hover:text-gray-200">Accueil</a></li>
+                    <li><a href="{{ url('/abouts') }}" class="hover:text-gray-200">À Propos</a></li>
                     <li><a href="{{ url('/services') }}" class="hover:text-gray-200">Services</a></li>
                     <li><a href="{{ url('/blogs') }}" class="hover:text-gray-200">Blog</a></li>
                     <li><a href="{{ url('/contacts') }}" class="hover:text-gray-200">Contact</a></li>
                 </ul>
             </div>
 
-            <!-- Contact Information -->
             <div class="text-center md:text-left">
-                <h2 class="font-semibold text-lg mb-2">Contact Us</h2>
-                <p class="text-gray-400">1234 Street Name, City, Country</p>
-                <p class="text-gray-400">Phone: +123 456 7890</p>
-                <p class="text-gray-400">Email: info@example.com</p>
+                <h2 class="font-semibold text-lg mb-2">Nous Contacter</h2>
+                <p class="text-gray-400">1234 Nom de Rue, Ville, Pays</p>
+                <p class="text-gray-400">Téléphone : +123 456 7890</p>
+                <p class="text-gray-400">Email : info@example.com</p>
             </div>
         </div>
 
-        <!-- Social Media Links -->
         <div class="mt-6 flex justify-center md:justify-start space-x-4">
             <a href="#" class="text-gray-400 hover:text-gray-200">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
@@ -47,9 +43,8 @@
             </a>
         </div>
 
-        <!-- Copyright -->
         <div class="text-center mt-8 text-gray-500 text-sm">
-            &copy; 2024 {{ config('app.name') }}. All rights reserved.
+            &copy; 2024 {{ config('app.name') }}. Tous droits réservés.
         </div>
     </div>
 </footer>
