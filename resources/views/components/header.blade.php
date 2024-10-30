@@ -12,6 +12,7 @@
                     <li><a href="{{ url('/') }}" class="hover:text-gray-400 font-bold">Accueil</a></li>
                     <li><a href="{{ url('/abouts') }}" class="hover:text-gray-400 font-bold">A propos</a></li>
                     <li><a href="{{ url('/services') }}" class="hover:text-gray-400 font-bold">Services</a></li>
+                    <li><a href="{{ url('/events') }}" class="hover:text-gray-400 font-bold">Événements</a></li>
                     <li><a href="{{ url('/blogs') }}" class="hover:text-gray-400 font-bold">Blog</a></li>
                     <li><a href="{{ url('/contacts') }}" class="hover:text-gray-400 font-bold">Contact</a></li>
                 </ul>
@@ -36,6 +37,7 @@
                 <li><a href="{{ url('/') }}" class="hover:text-gray-400">Accueil</a></li>
                 <li><a href="{{ url('/abouts') }}" class="hover:text-gray-400">A propos</a></li>
                 <li><a href="{{ url('/services') }}" class="hover:text-gray-400">Services</a></li>
+                <li><a href="{{ url('/events') }}" class="hover:text-gray-400">Événements</a></li>
                 <li><a href="{{ url('/blogs') }}" class="hover:text-gray-400">Blog</a></li>
                 <li><a href="{{ url('/contacts') }}" class="hover:text-gray-400">Contact</a></li>
                 <li><a href="#" class="px-4 py-2 bg-blue-100 rounded hover:bg-blue-200 text-black font-bold">Login</a></li>
