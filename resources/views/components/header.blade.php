@@ -1,4 +1,4 @@
-<div class="bg-white text-black fixed w-full z-50 shadow-md">
+<div id="navbar" class="bg-transparent text-white fixed w-full z-50 shadow-md transition-all duration-300">
     <nav>
         <div class="flex items-center justify-between md:px-10 px-3 py-4">
             <div>

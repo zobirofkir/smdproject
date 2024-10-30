@@ -7,15 +7,15 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>{{config('app.name')}}</title>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 scroll-smooth">
     <div>
         @include('components.header')
     </div>
 
-    <div class="container mx-auto">
+    <div>
         @include('components.slider')
 
-        @include('components.categories')        
+        {{-- @include('components.categories')         --}}
     </div>
 
     <main>

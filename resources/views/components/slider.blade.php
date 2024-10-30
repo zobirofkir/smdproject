@@ -1,4 +1,4 @@
-<div class="relative w-full h-screen md:h-auto top-[25px]">
+<div class="relative w-full h-screen md:h-auto">
     <div class="overflow-hidden h-full">
         <div class="flex transition-transform duration-500" id="slider">
             <div class="min-w-full h-screen md:h-auto relative">
