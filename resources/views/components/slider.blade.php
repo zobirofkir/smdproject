@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    <!-- Navigation Buttons -->
+
     <button onclick="prevSlide()" aria-label="Previous Slide" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white rounded-full shadow p-2 hover:bg-gray-200 transition">
         &#10094;
     </button>
@@ -33,24 +33,3 @@
         &#10095;
     </button>
 </div>
-
-<!-- JavaScript for Slider Functionality -->
-<script>
-    let currentSlide = 0;
-
-    function showSlide(index) {
-        const slides = document.querySelectorAll('#slider > div');
-        const totalSlides = slides.length;
-        currentSlide = (index + totalSlides) % totalSlides; // Loop back to start
-        const offset = -currentSlide * 100; // Calculate offset
-        document.querySelector('#slider').style.transform = `translateX(${offset}%)`;
-    }
-
-    function nextSlide() {
-        showSlide(currentSlide + 1);
-    }
-
-    function prevSlide() {
-        showSlide(currentSlide - 1);
-    }
-</script>

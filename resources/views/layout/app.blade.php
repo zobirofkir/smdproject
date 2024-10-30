@@ -26,5 +26,6 @@
 
     <script src="{{asset('assets/js/dropdown.js')}}"></script>
     <script src="{{asset('assets/js/autoscrollcategories.js')}}"></script>
+    <script src="{{asset('assets/js/slider.js')}}"></script>
 </body>
 </html>
