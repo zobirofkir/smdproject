@@ -16,7 +16,7 @@
             </div>
 
             <div class="hidden md:block">
-                <a href="{{ url('/login') }}" class="px-4 py-2 bg-blue-100 rounded hover:bg-blue-200 text-black font-bold">Login</a>
+                <a href="#" class="px-4 py-2 bg-blue-100 rounded hover:bg-blue-200 text-black font-bold">Login</a>
             </div>
 
             <div class="md:hidden">
@@ -36,7 +36,7 @@
                 <li><a href="{{ url('/services') }}" class="hover:text-gray-400">Services</a></li>
                 <li><a href="{{ url('/blogs') }}" class="hover:text-gray-400">Blog</a></li>
                 <li><a href="{{ url('/contacts') }}" class="hover:text-gray-400">Contact</a></li>
-                <li><a href="{{ url('/login') }}" class="px-4 py-2 bg-blue-100 rounded hover:bg-blue-200 text-black font-bold">Login</a></li>
+                <li><a href="#" class="px-4 py-2 bg-blue-100 rounded hover:bg-blue-200 text-black font-bold">Login</a></li>
             </ul>
         </div>
     </nav>
