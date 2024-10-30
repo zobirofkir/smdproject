@@ -2,7 +2,9 @@
     <nav>
         <div class="flex items-center justify-between items-center md:px-10 px-3 py-4">
             <div>
-                <h1 class="text-xl font-bold">{{ config('app.name') }}</h1>
+                <a href="{{url('/')}}">
+                    <h1 class="text-xl font-bold">{{ config('app.name') }}</h1>
+                </a>
             </div>
 
             <div class="hidden md:flex flex-1 justify-center">
