@@ -3,7 +3,7 @@
         SERVICES
     </h1>
 
-    <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
         <!-- Services -->
         @foreach (['1', '2', '3', '4', '5', '6'] as $item)
             <div class="flex flex-col justify-center items-center bg-white rounded-lg shadow-lg p-6 transition-transform duration-300 hover:scale-105">
