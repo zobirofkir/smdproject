@@ -1,4 +1,4 @@
-<div class="mt-20 mb-10">
+<div class="mt-20 mb-5">
     <div>
         <h1 class="text-4xl font-extrabold text-center text-gray-800 bg-gray-100 rounded-lg shadow-lg px-6 py-4 transform transition duration-300 hover:bg-gray-200">            
             Derniers Evenements
