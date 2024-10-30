@@ -1,6 +1,6 @@
-<div id="navbar" class="bg-transparent text-white fixed w-full z-50 shadow-md transition-all duration-300">
+<div id="navbar" class="bg-transparent text-white fixed w-full z-50 transition-all duration-300">
     <nav>
-        <div class="flex items-center justify-between md:px-10 px-3 py-4">
+        <div class="flex items-center justify-between items-center md:px-10 px-3 py-4">
             <div>
                 <h1 class="text-xl font-bold">{{ config('app.name') }}</h1>
             </div>
