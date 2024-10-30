@@ -7,9 +7,12 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <title>{{config('app.name')}}</title>
 </head>
-<body>
+<body class="bg-gray-100">
+    @include('components.header')
     <div>
         {{ $slot }}
     </div>
+    
+    <script src="{{asset('assets/js/dropdown.js')}}"></script>
 </body>
 </html>
