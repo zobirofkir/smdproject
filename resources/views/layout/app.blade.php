@@ -8,14 +8,23 @@
     <title>{{config('app.name')}}</title>
 </head>
 <body class="bg-gray-100">
-    @include('components.header')
-
-    @include('components.slider')
     <div>
-        {{ $slot }}
+        @include('components.header')
     </div>
+
+    <div class="container mx-auto">
+        @include('components.slider')
+
+        @include('components.categories')    
+    </div>
+
+    <main>
+        {{ $slot }}
+    </main>
     
     @include('components.footer')
+
     <script src="{{asset('assets/js/dropdown.js')}}"></script>
+    <script src="{{asset('assets/js/autoscrollcategories.js')}}"></script>
 </body>
 </html>
