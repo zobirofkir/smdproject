@@ -1,5 +1,6 @@
 <x-app-layout>
-    <div class="flex justify-center items-center min-h-screen">
-        <h1>hello world</h1>
+    <div class="container mx-auto">
+        @include('components.abouts')    
+        @include('components.services')    
     </div>
 </x-app-layout>
