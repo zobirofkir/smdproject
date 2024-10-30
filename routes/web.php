@@ -11,6 +11,8 @@ Route::get('/services', function () { return view('screens.services');});
 
 Route::get('/blogs', function () { return view('screens.blogs');});
 
+Route::get('/events', function () { return view('screens.events');});
+
 Route::get('/contacts', [ContactController::class, 'index'])->name('contacts.index');
 
 Route::post('/contacts', [ContactController::class, 'store'])->name('contacts.store');
