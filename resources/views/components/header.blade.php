@@ -7,7 +7,7 @@
 
         <div class="hidden md:flex flex-1 justify-center">
             <ul class="flex gap-6">
-                <li><a href="{{ url('/home') }}" class="hover:text-gray-400 font-bold">Accueil</a></li>
+                <li><a href="{{ url('/') }}" class="hover:text-gray-400 font-bold">Accueil</a></li>
                 <li><a href="{{ url('/abouts') }}" class="hover:text-gray-400 font-bold">A propos</a></li>
                 <li><a href="{{ url('/services') }}" class="hover:text-gray-400 font-bold">Services</a></li>
                 <li><a href="{{ url('/blogs') }}" class="hover:text-gray-400 font-bold">Blog</a></li>
@@ -33,7 +33,7 @@
     <!-- Mobile Dropdown Menu -->
     <div id="mobile-menu" class="md:hidden max-h-0 overflow-hidden transition-max-height duration-300 ease-in-out">
         <ul class="flex flex-col items-center gap-4 py-4">
-            <li><a href="{{ url('/home') }}" class="hover:text-gray-400">Accueil</a></li>
+            <li><a href="{{ url('/') }}" class="hover:text-gray-400">Accueil</a></li>
             <li><a href="{{ url('/contacts') }}" class="hover:text-gray-400">Contact</a></li>
             <li><a href="{{ url('/abouts') }}" class="hover:text-gray-400">A propos</a></li>
             <li><a href="{{ url('/services') }}" class="hover:text-gray-400">Services</a></li>
