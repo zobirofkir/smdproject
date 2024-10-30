@@ -15,7 +15,9 @@
     <div class="container mx-auto">
         @include('components.slider')
 
-        @include('components.categories')    
+        @include('components.categories')
+        
+        @include('components.abouts')    
     </div>
 
     <main>
