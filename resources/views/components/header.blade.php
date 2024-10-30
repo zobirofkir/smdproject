@@ -1,10 +1,9 @@
-<div class="bg-white text-black fixed w-full z-50">
+<div class="bg-white text-black fixed w-full z-50 ">
     <div class="flex items-center justify-between md:px-10 px-3 py-4">
 
         <nav>
             <h1 class="text-xl font-bold">{{ config('app.name') }}</h1>
         </nav>
-
 
         <div class="hidden md:flex flex-1 justify-center">
             <ul class="flex gap-6">
@@ -16,11 +15,9 @@
             </ul>
         </div>
 
-
         <div class="hidden md:block">
             <a href="{{ url('/login') }}" class="px-4 py-2 bg-blue-100 rounded hover:bg-blue-200 text-black font-bold">Login</a>
         </div>
-
 
         <div class="md:hidden">
             <button id="menu-toggle" class="focus:outline-none">
@@ -34,15 +31,18 @@
     </div>
 
     <!-- Mobile Dropdown Menu -->
-    <div id="mobile-menu" class="md:hidden hidden">
+    <div id="mobile-menu" class="md:hidden max-h-0 overflow-hidden transition-max-height duration-300 ease-in-out">
         <ul class="flex flex-col items-center gap-4 py-4">
             <li><a href="{{ url('/home') }}" class="hover:text-gray-400">Accueil</a></li>
             <li><a href="{{ url('/contacts') }}" class="hover:text-gray-400">Contact</a></li>
             <li><a href="{{ url('/abouts') }}" class="hover:text-gray-400">A propos</a></li>
             <li><a href="{{ url('/services') }}" class="hover:text-gray-400">Services</a></li>
             <li><a href="{{ url('/blogs') }}" class="hover:text-gray-400">Blog</a></li>
-
             <li><a href="{{ url('/login') }}" class="px-4 py-2 bg-blue-100 rounded hover:bg-blue-200 text-black font-bold">Login</a></li>
         </ul>
     </div>
 </div>
+
+<script>
+</script>
+

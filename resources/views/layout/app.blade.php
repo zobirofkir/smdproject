@@ -9,6 +9,8 @@
 </head>
 <body class="bg-gray-100">
     @include('components.header')
+
+    @include('components.slider')
     <div>
         {{ $slot }}
     </div>
